@@ -1,5 +1,7 @@
 # cobie-spreadsheet-validator
 
+[![CI](https://github.com/yassine2med/cobie-spreadsheet-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/cobie-spreadsheet-validator/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 COBie is the spreadsheet format used to hand a finished building over to its operators. A handover that points to a space or type that does not exist is hard to load into a maintenance system. This tool reads a COBie workbook and lists every missing sheet or column, broken reference, duplicate name and bad value.
 
 ![Screenshot](docs/screenshot.png)
